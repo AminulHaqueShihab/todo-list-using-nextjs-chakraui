@@ -24,7 +24,7 @@ export default function Sidebar() {
       </ListItem>
 
       <ListItem>
-        <Link href={"/"}>
+        <Link href={"/createTodo"}>
           <Flex alignItems={"center"} gap={2}>
             <FiEdit />
             {/* <ListIcon as={CalendarIcon} color={"white"} /> */}
